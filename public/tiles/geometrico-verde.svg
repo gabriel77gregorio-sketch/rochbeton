@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <rect width="200" height="200" fill="#F4EFE6"/>
+  <!-- Padrão Chevron Moderno -->
+  <polygon points="0,0 100,100 100,60 0,-40" fill="#3E5641"/>
+  <polygon points="100,100 200,0 200,-40 100,60" fill="#344837"/>
+  <polygon points="0,100 100,200 100,160 0,60" fill="#3E5641"/>
+  <polygon points="100,200 200,100 200,60 100,160" fill="#344837"/>
+  <polygon points="0,200 100,300 100,260 0,160" fill="#3E5641"/>
+  <polygon points="100,300 200,200 200,160 100,260" fill="#344837"/>
+  <line x1="0" y1="100" x2="200" y2="100" stroke="#F4EFE6" stroke-width="4"/>
+  <line x1="100" y1="0" x2="100" y2="200" stroke="#F4EFE6" stroke-width="4"/>
+</svg>

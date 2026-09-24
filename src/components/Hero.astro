@@ -1,0 +1,171 @@
+---
+// Hero.astro - Seção de Alto Impacto Editorial com Estilo Apple
+---
+
+<section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-gradient-to-b from-[#F9F8F6] via-[#F4EFE6]/60 to-[#F9F8F6]">
+  <!-- Elementos de iluminação de fundo / ambient blur -->
+  <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#B85D43]/10 rounded-full blur-[140px] pointer-events-none"></div>
+  <div class="absolute top-1/3 right-10 w-[400px] h-[400px] bg-[#C49746]/10 rounded-full blur-[120px] pointer-events-none"></div>
+  <div class="absolute bottom-10 left-10 w-[450px] h-[450px] bg-[#2C4258]/10 rounded-full blur-[130px] pointer-events-none"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Cabeçalho Editorial -->
+    <div class="text-center max-w-4xl mx-auto space-y-6">
+      
+      <!-- Tag de Tradição -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-stone-200/60 backdrop-blur-md border border-white/60 text-[#1C1D1F] text-xs font-semibold tracking-wider uppercase shadow-xs">
+        <span class="w-2 h-2 rounded-full bg-[#B85D43] animate-pulse"></span>
+        <span>Fabricação Própria em Taboão da Serra • Desde 1985</span>
+      </div>
+
+      <!-- Título Principal Editorial -->
+      <h1 class="font-editorial text-4xl sm:text-6xl lg:text-7xl font-semibold tracking-tight text-[#1C1D1F] leading-[1.08]">
+        A arte secular do <span class="italic font-normal text-[#B85D43]">ladrilho hidráulico</span> sob a luz da arquitetura moderna.
+      </h1>
+
+      <!-- Subtítulo Arquitetônico -->
+      <p class="text-base sm:text-xl text-[#1C1D1F]/75 max-w-2xl mx-auto font-normal leading-relaxed">
+        Prensagem manual em matrizes metálicas, cura natural submersa em água sem queima e liberdade absoluta para criar combinações de cores e paginações autorais.
+      </p>
+
+      <!-- CTAs Estilo Apple -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-3">
+        <a
+          href="#catalogo"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-[#1C1D1F] hover:bg-[#B85D43] text-white font-medium text-sm sm:text-base tracking-wide shadow-lg shadow-black/10 transition-all duration-300 hover:scale-[1.02] active:scale-98 flex items-center justify-center gap-2"
+        >
+          <span>Explorar Catálogo de Modelos</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </a>
+
+        <a
+          href="#galeria"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-white/75 hover:bg-white text-[#1C1D1F] font-medium text-sm sm:text-base tracking-wide border border-white/80 shadow-md backdrop-blur-md transition-all duration-300 hover:scale-[1.02] active:scale-98 flex items-center justify-center gap-2"
+        >
+          <svg class="w-4 h-4 text-[#B85D43]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          </svg>
+          <span>Ver Ambientes Reais</span>
+        </a>
+      </div>
+
+      <!-- Badges de Diferenciais Técnicos e Ecológicos -->
+      <div class="pt-6 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-3xl mx-auto text-left">
+        <div class="p-3.5 rounded-2xl bg-white/60 backdrop-blur-sm border border-stone-200/50">
+          <div class="text-xs text-stone-500 font-medium">Processo</div>
+          <div class="text-sm font-bold text-[#1C1D1F]">100% Artesanal</div>
+          <div class="text-[11px] text-stone-500 mt-0.5">Prensagem em molde de bronze</div>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-white/60 backdrop-blur-sm border border-stone-200/50">
+          <div class="text-xs text-stone-500 font-medium">Sustentabilidade</div>
+          <div class="text-sm font-bold text-[#1C1D1F]">Zero Queima (0% CO₂)</div>
+          <div class="text-[11px] text-stone-500 mt-0.5">Cura natural por imersão</div>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-white/60 backdrop-blur-sm border border-stone-200/50">
+          <div class="text-xs text-stone-500 font-medium">Durabilidade</div>
+          <div class="text-sm font-bold text-[#1C1D1F]">≥ 25 MPa Tráfego</div>
+          <div class="text-[11px] text-stone-500 mt-0.5">Residencial e comercial nobre</div>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-white/60 backdrop-blur-sm border border-stone-200/50">
+          <div class="text-xs text-stone-500 font-medium">Personalização</div>
+          <div class="text-sm font-bold text-[#1C1D1F]">Cores Sob Medida</div>
+          <div class="text-[11px] text-stone-500 mt-0.5">Paleta de óxidos minerais</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Showcase Visual: Vitrine de Fotos Reais com Efeito Liquid Glass -->
+    <div class="mt-14 relative max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-stretch">
+        
+        <!-- Foto Principal 1: Cozinha Colonial Azul e Branco -->
+        <div class="md:col-span-7 group relative overflow-hidden rounded-3xl bg-stone-900 border border-white/40 shadow-2xl transition-all duration-500 hover:shadow-[0_25px_50px_rgba(0,0,0,0.15)]">
+          <img
+            src="/images/projeto-cozinha-azul.png"
+            alt="Cozinha com ladrilho hidráulico floral azul e branco Rochbeton"
+            class="w-full h-80 sm:h-96 md:h-[460px] object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+          
+          <!-- Card Flutuante Liquid Glass na foto -->
+          <div class="absolute bottom-5 left-5 right-5 sm:right-auto sm:max-w-md p-4 rounded-2xl bg-white/80 backdrop-blur-xl border border-white/60 shadow-lg">
+            <div class="flex items-center gap-3">
+              <img
+                src="/tiles/floral-colonial.svg"
+                alt="Peça Floral Colonial 20x20cm"
+                class="w-12 h-12 rounded-xl object-contain bg-[#F3EFE6] border border-stone-200 p-0.5 shadow-xs"
+              />
+              <div>
+                <span class="text-[10px] uppercase tracking-wider font-semibold text-[#B85D43]">Projeto Residencial Jardins</span>
+                <h3 class="text-sm sm:text-base font-bold text-[#1C1D1F]">Floral Colonial Cobalto 20×20</h3>
+                <p class="text-xs text-stone-600">Composição artesanal em marcenaria e bancada escovada</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Lateral de Fotos Reais -->
+        <div class="md:col-span-5 flex flex-col gap-4">
+          
+          <!-- Foto 2: Hexagonal Terracota em Sala de Jantar -->
+          <div class="group relative flex-1 overflow-hidden rounded-3xl bg-stone-900 border border-white/40 shadow-xl transition-all duration-500 hover:shadow-2xl min-h-[220px]">
+            <img
+              src="/images/projeto-sala-hexagonal.png"
+              alt="Sala de jantar com ladrilho hexagonal terracota Rochbeton"
+              class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent"></div>
+            
+            <div class="absolute bottom-4 left-4 right-4 p-3 rounded-2xl bg-white/85 backdrop-blur-md border border-white/60 flex items-center justify-between">
+              <div>
+                <div class="text-[10px] uppercase font-bold text-[#B85D43]">Formato Orgânico</div>
+                <div class="text-xs sm:text-sm font-bold text-[#1C1D1F]">Hexagonal Terracota 20×23cm</div>
+              </div>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-stone-100 font-medium text-stone-700">Ver Obra</span>
+            </div>
+          </div>
+
+          <!-- Grid Duplo Inferior -->
+          <div class="grid grid-cols-2 gap-4 flex-1">
+            
+            <!-- Foto 3: Backsplash Cozinha Verde -->
+            <div class="group relative overflow-hidden rounded-3xl bg-stone-900 border border-white/40 shadow-lg min-h-[190px]">
+              <img
+                src="/images/projeto-backsplash-verde.png"
+                alt="Frontão de cozinha geométrico verde musgo"
+                class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-3 left-3 right-3 text-white">
+                <p class="text-[10px] text-emerald-300 font-semibold uppercase">Parede / Frontão</p>
+                <p class="text-xs font-bold leading-tight">Geométrico Chevron</p>
+              </div>
+            </div>
+
+            <!-- Foto 4: Corredor Xadrez Tradição 1985 -->
+            <div class="group relative overflow-hidden rounded-3xl bg-stone-900 border border-white/40 shadow-lg min-h-[190px]">
+              <img
+                src="/images/projeto-corredor-xadrez.jpg"
+                alt="Corredor histórico com ladrilhos em xadrez colorido Rochbeton"
+                class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-3 left-3 right-3 text-white">
+                <p class="text-[10px] text-amber-300 font-semibold uppercase">Acervo 1985</p>
+                <p class="text-xs font-bold leading-tight">Xadrez Retrô Clássico</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>

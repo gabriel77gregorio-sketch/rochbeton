@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <rect width="200" height="200" fill="#D68B29"/>
+  <defs>
+    <linearGradient id="faixaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9A5A0F"/>
+      <stop offset="35%" stop-color="#FFDE82"/>
+      <stop offset="70%" stop-color="#C57C1E"/>
+      <stop offset="100%" stop-color="#804706"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="20" height="180" rx="4" fill="url(#faixaGrad)"/><rect x="60" y="10" width="20" height="180" rx="4" fill="url(#faixaGrad)"/><rect x="110" y="10" width="20" height="180" rx="4" fill="url(#faixaGrad)"/><rect x="160" y="10" width="20" height="180" rx="4" fill="url(#faixaGrad)"/>
+</svg>

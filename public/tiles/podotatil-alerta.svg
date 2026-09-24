@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <rect width="200" height="200" fill="#D68B29"/>
+  <!-- Grade 4x4 de relevos tronco-cônicos -->
+  <defs>
+    <radialGradient id="alertaGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFDD78"/>
+      <stop offset="60%" stop-color="#C57C1E"/>
+      <stop offset="100%" stop-color="#8E520A"/>
+    </radialGradient>
+  </defs>
+  <circle cx="25" cy="25" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="25" cy="25" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="25" cy="75" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="25" cy="75" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="25" cy="125" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="25" cy="125" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="25" cy="175" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="25" cy="175" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="75" cy="25" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="75" cy="25" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="75" cy="75" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="75" cy="75" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="75" cy="125" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="75" cy="125" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="75" cy="175" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="75" cy="175" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="125" cy="25" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="125" cy="25" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="125" cy="75" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="125" cy="75" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="125" cy="125" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="125" cy="125" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="125" cy="175" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="125" cy="175" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="175" cy="25" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="175" cy="25" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="175" cy="75" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="175" cy="75" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="175" cy="125" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="175" cy="125" r="11" fill="#FFC94A" opacity="0.6"/><circle cx="175" cy="175" r="16" fill="url(#alertaGrad)"/>
+       <circle cx="175" cy="175" r="11" fill="#FFC94A" opacity="0.6"/>
+</svg>

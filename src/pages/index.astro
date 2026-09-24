@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AppliedGallery from '../components/AppliedGallery.astro';
+import ProductCatalog from '../components/ProductCatalog.astro';
+import SimulatorSection from '../components/SimulatorSection.astro';
+import HistorySection from '../components/HistorySection.astro';
+import ArchitectSection from '../components/ArchitectSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+---
+
+<BaseLayout
+  title="Ladrilhos Rochbeton | Fabricação Artesanal de Ladrilhos Hidráulicos desde 1985"
+  description="Ladrilhos hidráulicos artesanais feitos sob medida em Taboão da Serra/SP. Catálogo de modelos decorados, hexagonais, antiderrapantes e podotáteis com cura hidráulica sem queima."
+>
+  <!-- Hero Section Editorial estilo Apple -->
+  <Hero />
+
+  <!-- Pilar 1: Galeria de Projetos Reais (Obras Aplicadas com recurso Spotlight da Peça) -->
+  <AppliedGallery />
+
+  <!-- Pilar 2: Catálogo & Portfólio Completo de Produtos (Tabs, Preview e Ficha Técnica) -->
+  <ProductCatalog />
+
+  <!-- Pilar 3: Simulador de Ambientes Interativo (Maquete Digital com troca de modelos e rejunte) -->
+  <SimulatorSection />
+
+  <!-- Seção Institucional: A Fábrica & Tradição 1985 (Processo de cura na água e restauração histórica) -->
+  <HistorySection />
+
+  <!-- Área do Arquiteto & Especificador (Amostras físicas, blocos 3D e catálogo em PDF) -->
+  <ArchitectSection />
+
+  <!-- Localização, Contato & Horários (Fábrica e Showroom em Taboão da Serra/SP) -->
+  <ContactSection />
+</BaseLayout>

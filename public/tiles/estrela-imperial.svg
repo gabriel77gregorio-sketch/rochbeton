@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <rect width="200" height="200" fill="#F5F2EB"/>
+  <g transform="translate(100,100)">
+    <polygon points="0,-85 24,-24 85,0 24,24 0,85 -24,24 -85,0 -24,-24" fill="#1C1D1F"/>
+    <polygon points="0,-60 17,-17 60,0 17,17 0,60 -17,17 -60,0 -17,-17" fill="#C49746"/>
+    <circle cx="0" cy="0" r="16" fill="#B85D43"/>
+    <circle cx="0" cy="0" r="6" fill="#F5F2EB"/>
+  </g>
+  <!-- Cantos decorados -->
+  <polygon points="0,0 35,0 0,35" fill="#1C1D1F"/>
+  <polygon points="200,0 165,0 200,35" fill="#1C1D1F"/>
+  <polygon points="0,200 35,200 0,165" fill="#1C1D1F"/>
+  <polygon points="200,200 165,200 200,165" fill="#1C1D1F"/>
+</svg>

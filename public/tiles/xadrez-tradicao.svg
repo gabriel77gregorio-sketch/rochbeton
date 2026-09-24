@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <rect width="100" height="100" x="0" y="0" fill="#B85D43"/>
+  <rect width="100" height="100" x="100" y="0" fill="#C49746"/>
+  <rect width="100" height="100" x="0" y="100" fill="#2C4258"/>
+  <rect width="100" height="100" x="100" y="100" fill="#4B665A"/>
+  <!-- Linhas de junta artesanal -->
+  <line x1="0" y1="100" x2="200" y2="100" stroke="#DFD9CF" stroke-width="3"/>
+  <line x1="100" y1="0" x2="100" y2="200" stroke="#DFD9CF" stroke-width="3"/>
+</svg>

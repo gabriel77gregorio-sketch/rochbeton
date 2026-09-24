@@ -1,0 +1,103 @@
+---
+// Footer.astro - Rodapé Editorial Rochbeton
+---
+
+<footer class="bg-[#141517] text-stone-300 pt-20 pb-12 border-t border-stone-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16 border-b border-stone-800">
+      
+      <!-- Coluna 1: Logo & Manifesto (2 colunas no desktop) -->
+      <div class="lg:col-span-2 space-y-4">
+        <a href="/" class="inline-flex items-center gap-3">
+          <img
+            src="/images/logo-rochbeton.png"
+            alt="Ladrilhos Rochbeton"
+            class="h-10 w-auto object-contain filter brightness-110"
+          />
+          <div class="flex flex-col">
+            <span class="text-xs font-bold tracking-[0.25em] text-white uppercase">Rochbeton</span>
+            <span class="text-[10px] text-[#B85D43] font-medium tracking-wider">Arte & Design Desde 1985</span>
+          </div>
+        </a>
+
+        <p class="text-xs text-stone-400 max-w-sm leading-relaxed">
+          Manufatura de ladrilhos hidráulicos artesanais em Taboão da Serra – SP. Mais de 40 anos de compromisso com a beleza perene do concreto curado na água e a originalidade dos projetos arquitetônicos brasileiros.
+        </p>
+
+        <!-- Selos -->
+        <div class="pt-2 flex flex-wrap gap-2 text-[10px] font-semibold">
+          <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-stone-300">
+            🌱 Zero Queima (Eco-Friendly)
+          </span>
+          <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-stone-300">
+            🇧🇷 Indústria Nacional
+          </span>
+          <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-stone-300">
+            📐 Conformidade NBR 9050
+          </span>
+        </div>
+      </div>
+
+      <!-- Coluna 2: Navegação -->
+      <div class="space-y-3">
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider">Navegação</h4>
+        <ul class="space-y-2 text-xs">
+          <li><a href="#catalogo" class="hover:text-white transition-colors">Catálogo de Modelos</a></li>
+          <li><a href="#galeria" class="hover:text-white transition-colors">Galeria de Obras Reais</a></li>
+          <li><a href="#simulador" class="hover:text-white transition-colors">Simulador de Ambientes</a></li>
+          <li><a href="#historia" class="hover:text-white transition-colors">A Fábrica & Tradição</a></li>
+          <li><a href="#arquitetos" class="hover:text-white transition-colors">Área do Arquiteto</a></li>
+          <li><a href="#contato" class="hover:text-white transition-colors">Showroom & Localização</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Linhas de Produtos -->
+      <div class="space-y-3">
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider">Linhas & Peças</h4>
+        <ul class="space-y-2 text-xs text-stone-400">
+          <li>Ladrilhos Decorados (20×20 / 15×15)</li>
+          <li>Ladrilhos Hexagonais (20×23)</li>
+          <li>Antiderrapantes de Alta Carga</li>
+          <li>Linha Podotátil Direcional e Alerta</li>
+          <li>Faixas, Molduras & Rodapés</li>
+          <li>Tosetos e Peças Especiais</li>
+          <li>Restauração Patrimonial Tombada</li>
+        </ul>
+      </div>
+
+      <!-- Coluna 4: Atendimento & Showroom -->
+      <div class="space-y-3">
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider">Atendimento</h4>
+        <div class="text-xs text-stone-400 space-y-2">
+          <p>
+            <strong class="text-stone-300">Showroom & Fábrica:</strong><br />
+            Rua Guairá, 36 – Jardim Salete<br />
+            Taboão da Serra – SP, CEP 06793-010
+          </p>
+          <p>
+            <strong class="text-stone-300">Telefones:</strong><br />
+            (11) 4138-1015<br />
+            (11) 99100-8594 (WhatsApp)
+          </p>
+          <p>
+            <strong class="text-stone-300">E-mail:</strong><br />
+            vendas@rochbeton.com.br
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Linha Final de Copyright -->
+    <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-stone-500">
+      <p>© 1985–2026 Rochbeton Ladrilhos Hidráulicos Ltda. Todos os direitos reservados.</p>
+      <p class="flex items-center gap-2">
+        <span>Artesanato & Engenharia Cimentícia</span>
+        <span>•</span>
+        <span class="text-[#B85D43]">Taboão da Serra / SP</span>
+      </p>
+    </div>
+
+  </div>
+</footer>

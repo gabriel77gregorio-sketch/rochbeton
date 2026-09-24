@@ -1,0 +1,173 @@
+---
+// Navbar.astro - Header flutuante Liquid Glass estilo Apple
+---
+
+<header class="fixed top-0 left-0 right-0 z-50 pt-3 sm:pt-4 px-3 sm:px-6 transition-all duration-300">
+  <div class="max-w-7xl mx-auto">
+    <nav class="relative flex items-center justify-between px-4 sm:px-6 py-2.5 sm:py-3 rounded-full bg-white/75 backdrop-blur-xl border border-white/60 shadow-[0_8px_32px_rgba(0,0,0,0.06)] transition-all duration-300">
+      
+      <!-- Logotipo Oficial Rochbeton -->
+      <a href="/" class="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#B85D43]">
+        <img
+          src="/images/logo-rochbeton.png"
+          alt="Ladrilhos Rochbeton - Desde 1985"
+          class="h-9 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+        />
+        <div class="hidden sm:flex flex-col">
+          <span class="text-xs font-semibold tracking-[0.2em] text-[#1C1D1F] uppercase font-sans">Rochbeton</span>
+          <span class="text-[10px] text-[#B85D43] font-medium tracking-wider">Tradição & Design 1985</span>
+        </div>
+      </a>
+
+      <!-- Menu Desktop Links -->
+      <div class="hidden md:flex items-center gap-1 lg:gap-2">
+        <a
+          href="#catalogo"
+          class="px-3.5 py-1.5 text-xs lg:text-sm font-medium text-[#1C1D1F]/80 hover:text-[#B85D43] hover:bg-black/5 rounded-full transition-all duration-200"
+        >
+          Catálogo
+        </a>
+        <a
+          href="#galeria"
+          class="px-3.5 py-1.5 text-xs lg:text-sm font-medium text-[#1C1D1F]/80 hover:text-[#B85D43] hover:bg-black/5 rounded-full transition-all duration-200"
+        >
+          Galeria Aplicada
+        </a>
+        <a
+          href="#simulador"
+          class="px-3.5 py-1.5 text-xs lg:text-sm font-medium text-[#1C1D1F]/80 hover:text-[#B85D43] hover:bg-black/5 rounded-full transition-all duration-200"
+        >
+          Simulador
+        </a>
+        <a
+          href="#historia"
+          class="px-3.5 py-1.5 text-xs lg:text-sm font-medium text-[#1C1D1F]/80 hover:text-[#B85D43] hover:bg-black/5 rounded-full transition-all duration-200"
+        >
+          A Empresa (1985)
+        </a>
+        <a
+          href="#arquitetos"
+          class="px-3.5 py-1.5 text-xs lg:text-sm font-medium text-[#1C1D1F]/80 hover:text-[#B85D43] hover:bg-black/5 rounded-full transition-all duration-200"
+        >
+          Área do Arquiteto
+        </a>
+        <a
+          href="#contato"
+          class="px-3.5 py-1.5 text-xs lg:text-sm font-medium text-[#1C1D1F]/80 hover:text-[#B85D43] hover:bg-black/5 rounded-full transition-all duration-200"
+        >
+          Contato
+        </a>
+      </div>
+
+      <!-- Ações do Header: CTA WhatsApp & Botão Mobile -->
+      <div class="flex items-center gap-2">
+        <a
+          href="https://wa.me/5511991008594?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20ladrilhos%20hidr%C3%A1ulicos%20Rochbeton."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-4 sm:px-5 py-2 rounded-full bg-[#1C1D1F] hover:bg-[#B85D43] text-white text-xs sm:text-sm font-semibold tracking-wide shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] active:scale-95"
+        >
+          <!-- WhatsApp Icon -->
+          <svg class="w-4 h-4 text-emerald-400 fill-current" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.592 2.654-.697c.974.532 1.802.814 2.806.815 3.183 0 5.77-2.587 5.77-5.767 0-3.18-2.587-5.766-5.77-5.766zm3.407 8.163c-.144.406-.834.774-1.157.822-.323.048-.745.068-1.206-.08-1.503-.482-2.541-1.637-2.618-1.74-.076-.102-.622-.828-.622-1.58 0-.751.393-1.121.532-1.265.14-.143.305-.18.406-.18.102 0 .204.002.292.006.094.005.219-.036.342.261.127.307.433 1.056.471 1.134.038.077.064.168.013.27-.051.102-.077.166-.153.254-.076.089-.16.198-.229.266-.076.076-.156.159-.067.311.089.153.395.652.848 1.055.582.518 1.074.679 1.227.755.153.076.242.064.331-.038.089-.102.382-.445.484-.598.102-.153.204-.127.343-.076.14.051.889.419 1.042.495.153.076.255.114.292.178.038.064.038.369-.106.775z"/>
+          </svg>
+          <span class="hidden sm:inline">Solicitar Orçamento</span>
+          <span class="sm:hidden">Orçamento</span>
+        </a>
+
+        <!-- Botão Menu Mobile -->
+        <button
+          type="button"
+          id="mobile-menu-toggle"
+          aria-label="Abrir menu de navegação"
+          class="md:hidden flex items-center justify-center w-9 h-9 rounded-full bg-stone-100 text-[#1C1D1F] hover:bg-stone-200 transition-colors"
+        >
+          <svg id="menu-icon-bars" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+    </nav>
+  </div>
+
+  <!-- Gaveta Mobile Liquid Glass -->
+  <div
+    id="mobile-menu-drawer"
+    class="hidden md:hidden mt-2 mx-auto max-w-7xl px-2 transition-all duration-300 transform opacity-0 translate-y-[-8px]"
+  >
+    <div class="p-5 rounded-3xl bg-white/95 backdrop-blur-2xl border border-white/70 shadow-2xl space-y-3">
+      <div class="flex flex-col space-y-1">
+        <a href="#catalogo" class="mobile-nav-link px-4 py-2.5 rounded-xl font-medium text-base text-[#1C1D1F] hover:bg-stone-100 transition-colors">
+          Catálogo de Modelos
+        </a>
+        <a href="#galeria" class="mobile-nav-link px-4 py-2.5 rounded-xl font-medium text-base text-[#1C1D1F] hover:bg-stone-100 transition-colors">
+          Galeria Aplicada (Obras Reais)
+        </a>
+        <a href="#simulador" class="mobile-nav-link px-4 py-2.5 rounded-xl font-medium text-base text-[#1C1D1F] hover:bg-stone-100 transition-colors">
+          Simulador Interativo
+        </a>
+        <a href="#historia" class="mobile-nav-link px-4 py-2.5 rounded-xl font-medium text-base text-[#1C1D1F] hover:bg-stone-100 transition-colors">
+          A Fábrica & Tradição (1985)
+        </a>
+        <a href="#arquitetos" class="mobile-nav-link px-4 py-2.5 rounded-xl font-medium text-base text-[#1C1D1F] hover:bg-stone-100 transition-colors">
+          Área do Arquiteto & Downloads
+        </a>
+        <a href="#contato" class="mobile-nav-link px-4 py-2.5 rounded-xl font-medium text-base text-[#1C1D1F] hover:bg-stone-100 transition-colors">
+          Localização & Contato
+        </a>
+      </div>
+
+      <div class="pt-3 border-t border-stone-200 flex flex-col gap-2">
+        <a
+          href="https://wa.me/5511991008594"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center justify-center gap-2 w-full py-3 rounded-2xl bg-[#B85D43] text-white font-semibold text-sm shadow-md"
+        >
+          Falar com Atendimento Técnico
+        </a>
+        <p class="text-center text-[11px] text-stone-500 font-medium">Taboão da Serra - SP | Atendimento Seg a Sáb</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  const toggleBtn = document.getElementById('mobile-menu-toggle');
+  const drawer = document.getElementById('mobile-menu-drawer');
+  const iconBars = document.getElementById('menu-icon-bars');
+  const iconClose = document.getElementById('menu-icon-close');
+  const links = document.querySelectorAll('.mobile-nav-link');
+
+  let isOpen = false;
+
+  function toggleMenu() {
+    isOpen = !isOpen;
+    if (isOpen) {
+      drawer?.classList.remove('hidden');
+      setTimeout(() => {
+        drawer?.classList.remove('opacity-0', 'translate-y-[-8px]');
+        drawer?.classList.add('opacity-100', 'translate-y-0');
+      }, 10);
+      iconBars?.classList.add('hidden');
+      iconClose?.classList.remove('hidden');
+    } else {
+      drawer?.classList.remove('opacity-100', 'translate-y-0');
+      drawer?.classList.add('opacity-0', 'translate-y-[-8px]');
+      setTimeout(() => {
+        drawer?.classList.add('hidden');
+      }, 200);
+      iconBars?.classList.remove('hidden');
+      iconClose?.classList.add('hidden');
+    }
+  }
+
+  toggleBtn?.addEventListener('click', toggleMenu);
+  links.forEach(l => l.addEventListener('click', () => {
+    if (isOpen) toggleMenu();
+  }));
+</script>
